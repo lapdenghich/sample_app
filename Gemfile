@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
 gem "sqlite3"
 gem "uglifier", ">= 1.3.0"
@@ -12,7 +13,6 @@ gem "puma", "~> 3.7"
 gem "coffee-rails", "~> 4.2"
 gem "sass-rails", "~> 5.0"
 gem "rails", "~> 5.1.6", ">= 5.1.6.1"
-
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 
