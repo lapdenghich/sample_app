@@ -34,4 +34,9 @@ en:
   rails: "Ruby on Rails Tutorial Sample App"
   ruby: "Ruby on Rails Tutorial"
   help: "Rails Tutorial help page"
-
+  michael: "Michael Hartl"
+  welcome: "Welcome to the Sample App"
+  about: "About"
+  contact: "Contact"
+  new: "News"
+  now: "Sign up now!"
