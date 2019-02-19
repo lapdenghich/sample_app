@@ -13,6 +13,7 @@ gem "puma", "~> 3.7"
 gem "coffee-rails", "~> 4.2"
 gem "sass-rails", "~> 5.0"
 gem "rails", "~> 5.1.6", ">= 5.1.6.1"
+gem "bootstrap-sass", "3.3.7"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 

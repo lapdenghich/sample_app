@@ -1,7 +1,11 @@
-<h1>Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="http://www.railstutorial.org/">t "rail"</a>
-  sample application.
-</p>
-<%= link_to "English", locale:"en" %>
+<div class="center jumbotron">
+  <h1>t "welcome"</h1>
+  <h2>
+    This is the home page for the
+    <%= link_to t "ruby", "https://www.railstutorial.org/" %>
+    sample application.
+  </h2>
+
+  <%= link_to t "now", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>
